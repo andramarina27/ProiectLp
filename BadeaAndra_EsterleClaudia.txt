@@ -1,0 +1,10 @@
+Echipa: Badea Andra si Esterle Claudia
+
+Tema proiectului a fost aleasă la decizia amândurora.
+A fost o întreagă dezbatere asupra funcțiilor pe care să le folosim in program, dar la final s-a ales cea mai simplă variantă, astfel încât să se poată rula.
+Aceasta este reprezentată de jocul de cărți "UNO".
+Acest cod generează întregul joc și se bazează pe interacțiunea prin intermediul consolei și permite unui număr de jucători să joace jocul în timp real.
+Fiecare jucător alege o carte validă, iar în cazul cărții "Schimbă culoarea" va fi aleasă și care va fi aceasta.
+Jucătorul rămas fără cărți este declarat câștigător.
+În constructorul (__init__), se inițializează variabilele necesare pentru joc, cum ar fi pachetul de cărți (deck), talonul (discard_pile), lista de jucători (players), jucătorul curent (current_player), direcția jocului (direction) și jucătorul câștigător (winner).
+Pentru fiecare jucător, se solicită numele și se adaugă un dicționar corespunzător în lista players, cu informații despre nume, mână și funcțiile de alegere a cărții și culorii.
